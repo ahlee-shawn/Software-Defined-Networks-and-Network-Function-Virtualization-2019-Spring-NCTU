@@ -1,0 +1,26 @@
+{
+  "flows": [
+    {
+      "priority": 50000,
+      "timeout": 0,
+      "isPermanent": true,
+      "deviceId": "of:0000000000000001",
+      "treatment": {
+        "instructions": [
+          {
+            "type": "OUTPUT",
+            "port": "2"
+          }
+        ]
+      },
+      "selector": {
+        "criteria": [
+          {
+            "ip": "10.0.0.1/32",
+            "type": "IPV4_SRC"
+          }
+        ]
+      }
+    }
+  ]
+}
