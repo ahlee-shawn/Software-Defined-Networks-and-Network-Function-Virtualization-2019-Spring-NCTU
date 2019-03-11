@@ -18,6 +18,10 @@
           {
             "ip": "10.0.0.1/32",
             "type": "IPV4_SRC"
+          },
+          {
+            "type":"ETH_TYPE",
+            "ethType": "0x800"
           }
         ]
       }
