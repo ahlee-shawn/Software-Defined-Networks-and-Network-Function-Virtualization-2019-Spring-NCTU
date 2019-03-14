@@ -16,8 +16,8 @@
       "selector": {
         "criteria": [
           {
-            "ip": "10.0.0.1/32",
-            "type": "IPV4_SRC"
+            "ip": "10.0.0.2/32",
+            "type": "IPV4_DST"
           },
           {
             "type":"ETH_TYPE",
