@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1553791757669
+Build-Jdk: 1.8.0_201
+Built-By: leeang6969
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: lab3
+Bundle-SymbolicName: leeanghsuan.lab3
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: leeanghsuan.lab3;uses:="org.onosproject.core,org.onospro
+ ject.net.flowobjective,org.onosproject.net.packet,org.onosproject.store
+ .service";version="1.0.0"
+Import-Package: javafx.util,org.onlab.packet;version="[1.15,2)",org.onla
+ b.util;version="[1.15,2)",org.onosproject.core;version="[1.15,2)",org.o
+ nosproject.net;version="[1.15,2)",org.onosproject.net.flow;version="[1.
+ 15,2)",org.onosproject.net.flowobjective;version="[1.15,2)",org.onospro
+ ject.net.packet;version="[1.15,2)",org.onosproject.store;version="[1.15
+ ,2)",org.onosproject.store.serializers;version="[1.15,2)",org.onosproje
+ ct.store.service;version="[1.15,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/leeanghsuan.lab3.AppComponent.xml
+Tool: Bnd-3.3.0.201609221906
