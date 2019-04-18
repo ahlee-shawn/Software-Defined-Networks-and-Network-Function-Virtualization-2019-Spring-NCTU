@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1555573401243
+Build-Jdk: 1.8.0_201
+Built-By: leeang6969
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: lab4
+Bundle-SymbolicName: leeanghsuan.lab4
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: leeanghsuan.lab4;uses:="org.onosproject.core,org.onospro
+ ject.net.device,org.onosproject.net.flow,org.onosproject.net.flowobject
+ ive,org.onosproject.net.host,org.onosproject.net.link,org.onosproject.n
+ et.packet,org.onosproject.net.topology";version="1.0.0"
+Import-Package: org.onlab.graph;version="[1.15,2)",org.onlab.packet;vers
+ ion="[1.15,2)",org.onosproject.core;version="[1.15,2)",org.onosproject.
+ net;version="[1.15,2)",org.onosproject.net.device;version="[1.15,2)",or
+ g.onosproject.net.flow;version="[1.15,2)",org.onosproject.net.flowobjec
+ tive;version="[1.15,2)",org.onosproject.net.host;version="[1.15,2)",org
+ .onosproject.net.link;version="[1.15,2)",org.onosproject.net.packet;ver
+ sion="[1.15,2)",org.onosproject.net.topology;version="[1.15,2)",org.slf
+ 4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/leeanghsuan.lab4.AppComponent.xml
+Tool: Bnd-3.3.0.201609221906
