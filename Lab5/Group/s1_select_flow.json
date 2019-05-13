@@ -1,0 +1,30 @@
+{
+	"flows": [
+		{
+			"priority": 40010,
+			"timeout": 0,
+			"isPermanent": true,
+			"deviceId": "of:0000000000000001",
+			"treatment": {
+				"instructions": [
+					{
+						"type": "GROUP",
+						"groupId": 1
+					}
+				]
+			},
+			"selector": {
+				"criteria": [
+					{
+						"type": "IN_PORT",
+						"port": "1"
+					},
+					{
+						"type": "ETH_TYPE",
+						"ethType": "0x0800"
+					}
+				]
+			}
+		}
+	]
+}

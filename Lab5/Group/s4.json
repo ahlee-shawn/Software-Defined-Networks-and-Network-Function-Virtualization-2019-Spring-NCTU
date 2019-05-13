@@ -1,0 +1,70 @@
+{
+   "flows": [
+      {
+         "priority": 40005,
+         "timeout": 0,
+         "isPermanent": true,
+         "deviceId": "of:0000000000000004",
+         "treatment": {
+            "instructions": [
+               {
+                  "type": "OUTPUT",
+                  "port": "1"
+               }
+            ]
+         },
+         "selector": {
+            "criteria": [
+               {
+                  "type": "IN_PORT",
+                  "port": "3"
+               }
+            ]
+         }
+      },    
+      {
+         "priority": 40006,
+         "timeout": 0,
+         "isPermanent": true,
+         "deviceId": "of:0000000000000004",
+         "treatment": {
+            "instructions": [
+               {
+                  "type": "OUTPUT",
+                  "port": "1"
+               }
+            ]
+         },
+         "selector": {
+            "criteria": [
+               {
+                  "type": "IN_PORT",
+                  "port": "2"
+               }
+            ]
+         }
+      },
+      {
+         "priority": 40007,
+         "timeout": 0,
+         "isPermanent": true,
+         "deviceId": "of:0000000000000004",
+         "treatment": {
+            "instructions": [
+               {
+                  "type": "OUTPUT",
+                  "port": "3"
+               }
+            ]
+         },
+         "selector": {
+            "criteria": [
+               {
+                  "type": "IN_PORT",
+                  "port": "1"
+               }
+            ]
+         }
+      }
+   ]
+}

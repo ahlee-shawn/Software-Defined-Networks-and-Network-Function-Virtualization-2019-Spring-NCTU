@@ -1,0 +1,8 @@
+==============================
+Iperf failed but h1 can ping h2
+Caused by the command:mininet> s1 ovs-vsctl set bridge "s1" datapath_type=netdev
+==============================
+
+mininet> xterm h1 h2
+h1> ethtool -K h1-eth0 tx off
+h2> ethtool -K h2-eth0 tx off 

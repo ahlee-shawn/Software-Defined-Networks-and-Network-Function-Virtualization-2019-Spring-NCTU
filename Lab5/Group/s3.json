@@ -1,0 +1,49 @@
+{
+   "flows": [
+      {
+         "priority": 40003,
+         "timeout": 0,
+         "isPermanent": true,
+         "deviceId": "of:0000000000000003",
+         "treatment": {
+            "instructions": [
+               {
+                  "type": "OUTPUT",
+                  "port": "2"
+               }
+            ]
+         },
+         "selector": {
+            "criteria": [
+               {
+                  "type": "IN_PORT",
+                  "port": "1"
+               }
+            ]
+         }
+      },    
+      {
+         "priority": 40004,
+         "timeout": 0,
+         "isPermanent": true,
+         "deviceId": "of:0000000000000003",
+         "treatment": {
+            "instructions": [
+               {
+                  "type": "OUTPUT",
+                  "port": "1"
+               }
+            ]
+         },
+         "selector": {
+            "criteria": [
+               {
+                  "type": "IN_PORT",
+                  "port": "2"
+               }
+            ]
+         }
+      }
+      
+   ]
+}
