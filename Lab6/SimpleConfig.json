@@ -1,0 +1,13 @@
+{
+  "apps": {
+    "leeang6969.lab6" : {
+      "myconfig" : {
+        "DHCP_server_ID": "of:0000000000000003",
+        "DHCP_server_PORT": "2",
+        "DHCP_server_MAC": "ea:e9:78:fb:fd:04",
+        "DHCP_server_IP": "10.1.11.3/24"
+      }
+    }
+  }
+}
+
