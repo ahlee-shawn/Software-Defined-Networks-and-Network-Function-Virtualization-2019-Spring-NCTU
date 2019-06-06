@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1558895158255
+Build-Jdk: 1.8.0_201
+Built-By: leeang6969
+Bundle-Description: ONOS OSGi bundle archetype
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: lab7
+Bundle-SymbolicName: leeang6969.lab7
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: leeang6969.lab7;uses:="org.onosproject.core,org.onosproj
+ ect.net.device,org.onosproject.net.flow,org.onosproject.net.flowobjecti
+ ve,org.onosproject.net.host,org.onosproject.net.link,org.onosproject.ne
+ t.packet,org.onosproject.net.topology,org.onosproject.store.service";ve
+ rsion="1.0.0"
+Import-Package: javafx.util,org.onlab.packet;version="[1.15,2)",org.onla
+ b.util;version="[1.15,2)",org.onosproject.core;version="[1.15,2)",org.o
+ nosproject.net;version="[1.15,2)",org.onosproject.net.device;version="[
+ 1.15,2)",org.onosproject.net.flow;version="[1.15,2)",org.onosproject.ne
+ t.flowobjective;version="[1.15,2)",org.onosproject.net.host;version="[1
+ .15,2)",org.onosproject.net.link;version="[1.15,2)",org.onosproject.net
+ .packet;version="[1.15,2)",org.onosproject.net.topology;version="[1.15,
+ 2)",org.onosproject.store;version="[1.15,2)",org.onosproject.store.seri
+ alizers;version="[1.15,2)",org.onosproject.store.service;version="[1.15
+ ,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/leeang6969.lab7.AppComponent.xml
+Tool: Bnd-3.3.0.201609221906
